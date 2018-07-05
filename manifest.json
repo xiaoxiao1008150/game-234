@@ -1,0 +1,29 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/dragonBones/dragonBones.js"
+	],
+	"game": [
+		"bin-debug/Lgs/GameUtil.js",
+		"bin-debug/Lgs/snowing.js",
+		"bin-debug/Lgs/DeclareFunUtil.js",
+		"bin-debug/Lgs/GameContainer.js",
+		"bin-debug/Main.js",
+		"bin-debug/Lgs/GameUtil2.js",
+		"bin-debug/Lgs/LAjax.js",
+		"bin-debug/Lgs/LBgm.js",
+		"bin-debug/Lgs/LHomePage.js",
+		"bin-debug/Lgs/LLoading.js",
+		"bin-debug/Lgs/LRankPage.js",
+		"bin-debug/Lgs/LShake.js",
+		"bin-debug/Lgs/resultPage.js",
+		"bin-debug/Lgs/ruleView.js",
+		"bin-debug/Lgs/sharePage.js",
+		"bin-debug/Lgs/controlPage.js",
+		"bin-debug/Lgs/zhuliPage.js"
+	]
+}

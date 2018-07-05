@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>勇攀423</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <link rel="stylesheet" type="text/css" href="resource/others/server.css">
+    <!--<link rel="stylesheet" type="text/css" href="resource/others/index.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+    <!--<link rel="stylesheet" type="text/css" href="css/mobiscroll.css" />-->
+    <script>
+    var ishsp = true;
+    var $nickName = "黄小米";
+    var $headImg = "headimg.jpg";
+    var $staticUrl = "";
+    // var $staticUrl = "https://wxwangyu.oss-cn-shanghai.aliyuncs.com/2017/12/lg_ski/";
+    var $qrUrl = "resource/assets/QR.jpg";
+    var $haveMobile = false;
+
+    var prize_index = false;
+
+    var IsZhuli = false;
+    var IsActivityEnd = false;
+    var $serverBaseUrl='http://192.168.2.80/2017/12/climb423/server/';
+
+    var activeTime = 0;
+    </script>
+    <style>
+        html, body {
+            /* -ms-touch-action: none; */
+            background: #1B1B1F;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        a[title='站长统计']{
+            display:none;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js" src-release="libs/modules/dragonBones/dragonBones.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <script egret="lib" src="polyfill/promise.min.js"></script>
+    <script egret="lib" src="libs/jquery-1.9.1.min.js"></script>
+    <script egret="lib" src="libs/fastclick.js"></script>
+    <script egret="lib" src="libs/server_ajax_trukey.js"></script>
+    <script egret="lib" src="libs/lgs.js"></script>
+    <script egret="lib" src="libs/index.js"></script>
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/Lgs/GameUtil.js"></script>
+	<script egret="game" src="bin-debug/Lgs/snowing.js"></script>
+	<script egret="game" src="bin-debug/Lgs/LHomePage.js"></script>
+	<!-- <script egret="game" src="bin-debug/Lgs/drawPage.js"></script> -->
+	<script egret="game" src="bin-debug/Lgs/GameContainer.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/Lgs/GameUtil2.js"></script>
+	<!-- <script egret="game" src="bin-debug/Lgs/historyPage.js"></script> -->
+	<!-- <script egret="game" src="bin-debug/Lgs/keyPage.js"></script> -->
+	<script egret="game" src="bin-debug/Lgs/LAjax.js"></script>
+	<script egret="game" src="bin-debug/Lgs/LBgm.js"></script>
+	<!-- <script egret="game" src="bin-debug/Lgs/LFlowSnow.js"></script> -->
+<!-- 	<script egret="game" src="bin-debug/Lgs/LFormPage.js"></script>
+	<script egret="game" src="bin-debug/Lgs/LFormPage2.js"></script> -->
+	<!-- <script egret="game" src="bin-debug/Lgs/activityEndPage.js"></script> -->
+	<!-- <script egret="game" src="bin-debug/Lgs/LInput.js"></script> -->
+	<script egret="game" src="bin-debug/Lgs/LLoading.js"></script>
+	<!-- <script egret="game" src="bin-debug/Lgs/LPrizePage.js"></script> -->
+	<!-- <script egret="game" src="bin-debug/Lgs/LQuestion.js"></script> -->
+	<script egret="game" src="bin-debug/Lgs/LRankPage.js"></script>
+	<script egret="game" src="bin-debug/Lgs/LShake.js"></script>
+	<script egret="game" src="bin-debug/Lgs/resultPage.js"></script>
+	<script egret="game" src="bin-debug/Lgs/ruleView.js"></script>
+	<script egret="game" src="bin-debug/Lgs/sharePage.js"></script>
+	<!-- <script egret="game" src="bin-debug/Lgs/ShockUtils.js"></script> -->
+	<script egret="game" src="bin-debug/Lgs/DeclareFunUtil.js"></script>
+	<script egret="game" src="bin-debug/Lgs/zhuliPage.js"></script>
+	<script egret="game" src="bin-debug/Lgs/controlPage.js"></script>
+</head>
+<body>
+    <audio id="bgm" src="resource/assets/bgm.mp3" preload="preload" loop="loop" autoplay="true" webkit-playsinline="true"
+    playsinline="true"></audio>
+    <audio id="touchBtn" src="resource/assets/touchBtn.mp3" preload="preload" ></audio>
+    <audio id="jump" src="resource/assets/jump.mp3" preload="preload" ></audio>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="portrait"
+         data-scale-mode="noBorder"
+         data-frame-rate="33"
+         data-content-width="850"
+         data-content-height="1206"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script type="text/javascript">
+        if(window.innerWidth/window.innerHeight<0.6){
+            $(".egret-player").attr("data-scale-mode","showAll");
+            $(".egret-player").attr("data-content-width","750");
+        }else if(window.innerWidth/window.innerHeight>850/1206){
+            $(".egret-player").attr("data-scale-mode","showAll");
+        }
+		function getQueryStringByName(name){
+			var result = window.location.search.match(new RegExp("[\?\&]" + name + "=([^\&]+)", "i"));
+			if (result == null || result.length < 1){
+				return "";
+			}
+			return result[1];
+		}
+		var $code=getQueryStringByName('code');
+		var $dirName=window.location.href.indexOf('index')>=0?window.location.href.substring(0,window.location.href.lastIndexOf('/')):window.location.href;
+	</script>
+    <script type="text/javascript">
+        $(function(){
+          // 启动项目
+          egret.runEgret({renderMode:"canvas", audioType:0});
+        });
+    </script>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * }
+         **/
+        // egret.runEgret({renderMode:"canvas", audioType:0});
+    </script>
+</body>
+</html>

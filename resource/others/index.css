@@ -1,0 +1,53 @@
+*{margin: 0;padding: 0;
+/*-webkit-tap-highlight-color: transparent;*/
+}
+li{list-style: none;}
+html{-webkit-text-size-adjust:none;}
+html,body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+    /*-webkit-overflow-scrolling: touch;*/
+}
+body{
+    text-align:justify;
+    font-family:"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",arial,Helvetica,sans-serif;
+}
+img{
+    border:none;
+    outline: 0;
+    display:block;
+}
+.inviteBg{
+    pointer-events: none;
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+}
+.inviteBg input,.inviteBg select{
+    pointer-events: auto;
+    position: absolute;
+    top: 0;
+    /* display: block; */
+    width: 16%;
+    left: 63.5%;
+    height: 1.7%;
+    border: none;
+    background: rgba(255,255,255,1);
+    opacity: 0;
+    font-size: 90%;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+.inviteBg .peopleNum{
+    top: 54.2%;
+}
+.inviteBg .industry{
+    top: 61.5%;
+}

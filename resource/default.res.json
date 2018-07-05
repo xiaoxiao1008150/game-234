@@ -1,0 +1,438 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,startBtn_png,musicOn_png,scrollbg_png,scrolls_png,musicOn2_png,startBtn2_png,shareBg_png,formInput_png,homeBg_jpg,broadcast_png,homeTitle_png,rules_png,gameBg_jpg,replayBtn_png,formtips_png,cloud1_png,cloud2_png,cloud3_png,musicOff_png,p1_cloud1_png,p1_cloud2_png,p1_logo_png,p1_sun_png,p1_tower_png,rankBtn_png,p1_bird_png,ruleControl_png,backBtn_png,btnBg_png,controlBg_jpg,descControl_png,rankControl_png,rankTitle_jpg,headFg_png,listBg_png,qrDesc_png,QR_jpg,ruleBox_png,headBg_png,myRankBg_png,rank3_png,rank1_png,rank2_png,rankNum_png,rankNum_fnt,slideView_png,descBg_png,bestRankBg_png,bestScoreBg_png,r_headBg_png,rankBtn2_png,resultBg_png,resultTitle_png,r_headFg_png,gameBg2_png,heartBg_png,land_jpg,scoreBg_png,badHeart_png,boom_png,building_png,fast_png,floor_png,g_cloud_png,g_headBg_png,g_numFont_fnt,g_numFont_png,hero_json,hero_png,boomAni_png,boomAni_json,heart_png,xin_png",
+			"name": "preload"
+		},
+		{
+			"keys": "jdbg_png,jdfg_png,loadBg_jpg,loadText_png,loadAni_png,loadAni_json",
+			"name": "loadUI"
+		},
+		{
+			"keys": "btn1_png,btn2_png",
+			"name": "preload2"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "others/loading.gif",
+			"type": "image",
+			"name": "loading_gif"
+		},
+		{
+			"url": "assets/startBtn.png",
+			"type": "image",
+			"name": "startBtn_png"
+		},
+		{
+			"url": "assets/musicOn.png",
+			"type": "image",
+			"name": "musicOn_png"
+		},
+		{
+			"url": "assets/loadUI/jdbg.png",
+			"type": "image",
+			"name": "jdbg_png"
+		},
+		{
+			"url": "assets/loadUI/jdfg.png",
+			"type": "image",
+			"name": "jdfg_png"
+		},
+		{
+			"url": "assets/bgm.mp3",
+			"type": "sound",
+			"name": "bgm_mp3"
+		},
+		{
+			"url": "assets/scrollbg.png",
+			"type": "image",
+			"name": "scrollbg_png"
+		},
+		{
+			"url": "assets/scrolls.png",
+			"type": "image",
+			"name": "scrolls_png"
+		},
+		{
+			"url": "assets/musicOn.png",
+			"type": "image",
+			"name": "musicOn2_png"
+		},
+		{
+			"url": "assets/startBtn.png",
+			"type": "image",
+			"name": "startBtn2_png"
+		},
+		{
+			"url": "assets/shareBg.png",
+			"type": "image",
+			"name": "shareBg_png"
+		},
+		{
+			"url": "assets/formInput.png",
+			"type": "image",
+			"name": "formInput_png"
+		},
+		{
+			"url": "assets/btn1.png",
+			"type": "image",
+			"name": "btn1_png"
+		},
+		{
+			"url": "assets/btn2.png",
+			"type": "image",
+			"name": "btn2_png"
+		},
+		{
+			"url": "assets/homeBg.jpg",
+			"type": "image",
+			"name": "homeBg_jpg"
+		},
+		{
+			"url": "assets/broadcast.png",
+			"type": "image",
+			"name": "broadcast_png"
+		},
+		{
+			"url": "assets/loadUI/loadBg.jpg",
+			"type": "image",
+			"name": "loadBg_jpg"
+		},
+		{
+			"url": "assets/loadUI/loadText.png",
+			"type": "image",
+			"name": "loadText_png"
+		},
+		{
+			"url": "assets/homeTitle.png",
+			"type": "image",
+			"name": "homeTitle_png"
+		},
+		{
+			"url": "assets/rules.png",
+			"type": "image",
+			"name": "rules_png"
+		},
+		{
+			"url": "assets/gameBg.jpg",
+			"type": "image",
+			"name": "gameBg_jpg"
+		},
+		{
+			"url": "assets/replayBtn.png",
+			"type": "image",
+			"name": "replayBtn_png"
+		},
+		{
+			"url": "assets/formtips.png",
+			"type": "image",
+			"name": "formtips_png"
+		},
+		{
+			"url": "assets/loadUI/loadAni.png",
+			"type": "image",
+			"name": "loadAni_png"
+		},
+		{
+			"url": "assets/loadUI/loadAni.json",
+			"type": "json",
+			"name": "loadAni_json"
+		},
+		{
+			"name": "cloud1_png",
+			"type": "image",
+			"url": "assets/cloud1.png"
+		},
+		{
+			"name": "cloud2_png",
+			"type": "image",
+			"url": "assets/cloud2.png"
+		},
+		{
+			"name": "cloud3_png",
+			"type": "image",
+			"url": "assets/cloud3.png"
+		},
+		{
+			"name": "musicOff_png",
+			"type": "image",
+			"url": "assets/musicOff.png"
+		},
+		{
+			"name": "p1_cloud1_png",
+			"type": "image",
+			"url": "assets/p1_cloud1.png"
+		},
+		{
+			"name": "p1_cloud2_png",
+			"type": "image",
+			"url": "assets/p1_cloud2.png"
+		},
+		{
+			"name": "p1_logo_png",
+			"type": "image",
+			"url": "assets/p1_logo.png"
+		},
+		{
+			"name": "p1_sun_png",
+			"type": "image",
+			"url": "assets/p1_sun.png"
+		},
+		{
+			"name": "p1_tower_png",
+			"type": "image",
+			"url": "assets/p1_tower.png"
+		},
+		{
+			"name": "rankBtn_png",
+			"type": "image",
+			"url": "assets/rankBtn.png"
+		},
+		{
+			"name": "p1_bird_png",
+			"type": "image",
+			"url": "assets/p1_bird.png"
+		},
+		{
+			"name": "ruleControl_png",
+			"type": "image",
+			"url": "assets/ruleControl.png"
+		},
+		{
+			"name": "backBtn_png",
+			"type": "image",
+			"url": "assets/backBtn.png"
+		},
+		{
+			"name": "btnBg_png",
+			"type": "image",
+			"url": "assets/btnBg.png"
+		},
+		{
+			"name": "controlBg_jpg",
+			"type": "image",
+			"url": "assets/controlBg.jpg"
+		},
+		{
+			"name": "descControl_png",
+			"type": "image",
+			"url": "assets/descControl.png"
+		},
+		{
+			"name": "rankControl_png",
+			"type": "image",
+			"url": "assets/rankControl.png"
+		},
+		{
+			"name": "rankTitle_jpg",
+			"type": "image",
+			"url": "assets/rankTitle.jpg"
+		},
+		{
+			"name": "headFg_png",
+			"type": "image",
+			"url": "assets/headFg.png"
+		},
+		{
+			"name": "listBg_png",
+			"type": "image",
+			"url": "assets/listBg.png"
+		},
+		{
+			"name": "qrDesc_png",
+			"type": "image",
+			"url": "assets/qrDesc.png"
+		},
+		{
+			"name": "QR_jpg",
+			"type": "image",
+			"url": "assets/QR.jpg"
+		},
+		{
+			"name": "ruleBox_png",
+			"type": "image",
+			"url": "assets/ruleBox.png"
+		},
+		{
+			"name": "headBg_png",
+			"type": "image",
+			"url": "assets/headBg.png"
+		},
+		{
+			"name": "myRankBg_png",
+			"type": "image",
+			"url": "assets/myRankBg.png"
+		},
+		{
+			"name": "rank3_png",
+			"type": "image",
+			"url": "assets/rank3.png"
+		},
+		{
+			"name": "rank1_png",
+			"type": "image",
+			"url": "assets/rank1.png"
+		},
+		{
+			"name": "rank2_png",
+			"type": "image",
+			"url": "assets/rank2.png"
+		},
+		{
+			"name": "rankNum_png",
+			"type": "image",
+			"url": "assets/rankNum.png"
+		},
+		{
+			"name": "rankNum_fnt",
+			"type": "font",
+			"url": "assets/rankNum.fnt"
+		},
+		{
+			"name": "slideView_png",
+			"type": "image",
+			"url": "assets/slideView.png"
+		},
+		{
+			"name": "descBg_png",
+			"type": "image",
+			"url": "assets/descBg.png"
+		},
+		{
+			"name": "bestRankBg_png",
+			"type": "image",
+			"url": "assets/bestRankBg.png"
+		},
+		{
+			"name": "bestScoreBg_png",
+			"type": "image",
+			"url": "assets/bestScoreBg.png"
+		},
+		{
+			"name": "r_headBg_png",
+			"type": "image",
+			"url": "assets/r_headBg.png"
+		},
+		{
+			"name": "rankBtn2_png",
+			"type": "image",
+			"url": "assets/rankBtn2.png"
+		},
+		{
+			"name": "resultBg_png",
+			"type": "image",
+			"url": "assets/resultBg.png"
+		},
+		{
+			"name": "resultTitle_png",
+			"type": "image",
+			"url": "assets/resultTitle.png"
+		},
+		{
+			"name": "r_headFg_png",
+			"type": "image",
+			"url": "assets/r_headFg.png"
+		},
+		{
+			"name": "gameBg2_png",
+			"type": "image",
+			"url": "assets/gameBg2.png"
+		},
+		{
+			"name": "heartBg_png",
+			"type": "image",
+			"url": "assets/heartBg.png"
+		},
+		{
+			"name": "land_jpg",
+			"type": "image",
+			"url": "assets/land.jpg"
+		},
+		{
+			"name": "scoreBg_png",
+			"type": "image",
+			"url": "assets/scoreBg.png"
+		},
+		{
+			"name": "badHeart_png",
+			"type": "image",
+			"url": "assets/badHeart.png"
+		},
+		{
+			"name": "boom_png",
+			"type": "image",
+			"url": "assets/boom.png"
+		},
+		{
+			"name": "building_png",
+			"type": "image",
+			"url": "assets/building.png"
+		},
+		{
+			"name": "fast_png",
+			"type": "image",
+			"url": "assets/fast.png"
+		},
+		{
+			"name": "floor_png",
+			"type": "image",
+			"url": "assets/floor.png"
+		},
+		{
+			"name": "g_cloud_png",
+			"type": "image",
+			"url": "assets/g_cloud.png"
+		},
+		{
+			"name": "g_headBg_png",
+			"type": "image",
+			"url": "assets/g_headBg.png"
+		},
+		{
+			"name": "g_numFont_fnt",
+			"type": "font",
+			"url": "assets/g_numFont.fnt"
+		},
+		{
+			"name": "g_numFont_png",
+			"type": "image",
+			"url": "assets/g_numFont.png"
+		},
+		{
+			"name": "hero_json",
+			"type": "json",
+			"url": "assets/hero.json"
+		},
+		{
+			"name": "hero_png",
+			"type": "image",
+			"url": "assets/hero.png"
+		},
+		{
+			"name": "boomAni_png",
+			"type": "image",
+			"url": "assets/boomAni.png"
+		},
+		{
+			"name": "boomAni_json",
+			"type": "json",
+			"url": "assets/boomAni.json"
+		},
+		{
+			"name": "heart_png",
+			"type": "image",
+			"url": "assets/heart.png"
+		},
+		{
+			"name": "xin_png",
+			"type": "image",
+			"url": "assets/xin.png"
+		}
+	]
+}

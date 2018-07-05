@@ -1,0 +1,24 @@
+1、LHomePage.js  首页
+2、GameContainer.js - 游戏页面
+    a.line 489 游戏结束
+    b.line 537 没有血  游戏结束
+3、resultPage.js - 结果页面
+4、controlPage.js - 排行榜页面
+
+mainfest.json - 项目需要的所有js 文件路径
+egretProperties.json - 配置文件
+
+keyPage.js 暂留
+LInput 暂留
+LRankPage 暂留
+sharePage 暂留`
+
+删除文件
+drawPage historyPage LFlowSnow LFormPage  LFormPage2  activityEndPage LPrizePage  LQuestion
+ keyPage
+注意
+1. 如果 游戏页面 的红心需要加一个的话，那么图片 heartBg_png 需要相应的变长 或者红心变小
+
+
+
+
